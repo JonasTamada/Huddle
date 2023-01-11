@@ -1,0 +1,14 @@
+:root {
+
+    --ciano: hsl(193, 100%, 96%);
+    --ciano-escuro: hsl(192, 100%, 9%);
+    --azul: hsl(208, 11%, 55%);
+    --rosa: hsl(322, 100%, 66%);
+    --fonte-titulo: 'Poppins', sans-serif;
+}
+
+html {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}

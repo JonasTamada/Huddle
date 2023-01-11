@@ -1,0 +1,138 @@
+.company {
+
+    background-color: var(--ciano-escuro);
+    color: white;
+    padding: 0 1em;
+}
+
+.logo--white {
+
+    filter: brightness(0) invert(1);
+}
+
+.company__info {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.company__address,
+.company__phone,
+.company__email {
+
+    color: var(--azul);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    padding-left: 1.5em;
+}
+
+.company__address {
+
+    background-image: url("../images/icon-location.svg");
+    background-position: top 10px left 0;
+    line-height: 1.5;
+}
+
+.company__phone {
+
+    background-image: url("../images/icon-phone.svg");
+    background-position: top 3px left 0;
+}
+
+.company__email {
+
+    background-image: url("../images/icon-email.svg");
+    background-position: top 4px left 0;
+    margin-bottom: 2em;
+}
+
+.company__contact,
+.company__contact--block1,
+.company__contact--block2 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.company__contact--link {
+
+    color: var(--azul);
+    text-decoration: none;
+    margin: 0.5em 0;
+}
+
+.company__social-media {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company__social-media--icons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin: 2em 0 1em 0;
+}
+
+.icon {
+
+    color: var(--azul);
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--azul);
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 5px 0 0 3px;
+}
+
+.company__copyright {
+
+    color: var(--azul);
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .company {
+
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4em;
+    }
+
+    .company__info {
+
+        width: 35%;
+    }
+
+    .company__contact { 
+
+        flex-direction: row;
+        margin: 2.5em 0;
+        column-gap: 5em;
+    }
+
+    .company__contact--link {
+
+        margin: 1em 0;
+    }
+
+    .company__social-media {
+
+        justify-content: space-between;
+        margin: 1em 0;
+    }
+
+    .company__copyright {
+
+        padding: 0;
+    }
+}

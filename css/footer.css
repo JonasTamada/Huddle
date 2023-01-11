@@ -1,0 +1,25 @@
+footer {
+
+    background: var(--ciano-escuro);
+    padding: 1em 0;
+}
+
+.footer__text {
+
+    color: white;
+    text-align: center;
+}
+
+.footer__link {
+
+    text-decoration: none;
+    color: var(--ciano);
+}
+
+@media screen and (min-width: 1440px) {
+
+    footer {
+
+        padding: 10em 0 2em 0;
+    }
+}
